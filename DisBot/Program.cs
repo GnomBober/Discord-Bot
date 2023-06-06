@@ -11,7 +11,7 @@ public class Program
     public async Task MainAsync()
     {
         var config = new ConfigHandler().GetConfigs();
-        var speechBot = new SpeechBot(config.token, new List<IBotFunction> { new LoggerFunction() });
+        var speechBot = new SpeechBot(config.token, new List<IBotFunction> { new LoggerFunction(), new WatermelonCoolingFunction()});
 
         speechBot.Build();
         await speechBot.Start();
