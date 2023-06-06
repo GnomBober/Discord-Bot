@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DisBot
+namespace DisBot.Core.Shared.Config
 {
     public sealed class Configs
     {
