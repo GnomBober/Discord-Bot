@@ -1,9 +1,4 @@
-﻿using Discord;
-using Discord.Commands;
-using Discord.WebSocket;
-using Microsoft.Extensions.Configuration;
-using DisBot.Speech;
-using DisBot.Core.Shared.Config;
+﻿using DisBot.Core.Shared.Config;
 using DisBot.Plugins.Speech;
 using DisBot.Core.Shared.BotFunctions;
 using DisBot.Abstractrions.Interfaces;

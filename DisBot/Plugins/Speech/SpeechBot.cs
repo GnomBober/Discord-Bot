@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using DisBot.Abstractrions.Base;
+﻿using DisBot.Abstractrions.Base;
 using DisBot.Abstractrions.Interfaces;
-using DisBot.Speech.Functions;
+using DisBot.Plugins.Speech.Functions;
 
 namespace DisBot.Plugins.Speech
 {

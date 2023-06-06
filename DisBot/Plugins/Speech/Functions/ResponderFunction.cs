@@ -1,8 +1,8 @@
 ﻿using Discord.WebSocket;
 using DisBot.Abstractrions.Interfaces;
-using DisBot.Speech.Common;
+using DisBot.Plugins.Speech.Common;
 
-namespace DisBot.Speech.Functions
+namespace DisBot.Plugins.Speech.Functions
 {
     public class ResponderFunction : IBotFunction
     {
