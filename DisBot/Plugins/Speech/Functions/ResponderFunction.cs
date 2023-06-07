@@ -37,7 +37,7 @@ namespace DisBot.Plugins.Speech.Functions
 
             if(msg.Content == "Славик")
             {
-                int value = rnd.Next(1, 5);
+                int value = rnd.Next(1, 6);
                 await msg.Channel.SendMessageAsync(Dictionaries.itsMe[value]);
             }
             return;
