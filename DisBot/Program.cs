@@ -1,4 +1,4 @@
-﻿using DisBot.Core.Shared.Config;
+using DisBot.Core.Shared.Config;
 using DisBot.Plugins.Speech;
 using DisBot.Core.Shared.BotFunctions;
 using DisBot.Abstractrions.Interfaces;
