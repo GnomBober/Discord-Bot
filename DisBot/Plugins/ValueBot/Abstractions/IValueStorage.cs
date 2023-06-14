@@ -24,6 +24,15 @@ namespace DisBot.Plugins.ValueBot.Abstractions
         /// </summary>
         /// <param name="userId">Discord snowflake</param>
         /// <returns>The amount</returns>
-        public Task<int> GetValue(ulong userId);
+        public Task<long> GetValue(ulong userId);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="skip"> how many skipped </param>
+        /// <param name="take"> how many requested </param>
+        /// <param name="order">order of elements</param>
+        /// <param name="desc">is descending order</param>
+        /// <returns></returns>
+        public Task<IEnumerable<KeyValuePair<ulong, long>>> GetNetwothes(int skip, int take, Order order, bool desc = true);
     }
 }
