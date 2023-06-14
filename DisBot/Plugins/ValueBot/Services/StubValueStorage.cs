@@ -1,6 +1,5 @@
 ﻿using DisBot.Plugins.ValueBot.Abstractions;
 using DisBot.Plugins.ValueBot.Models;
-using System.Security.Cryptography.X509Certificates;
 
 namespace DisBot.Plugins.ValueBot.Services
 {
